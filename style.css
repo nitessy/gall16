@@ -1,0 +1,35 @@
+.nit{
+    background-color: yellow;
+    padding: 10px;
+
+
+}
+h1{
+    font-size: 30px;
+    color: orange;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-name: n1;
+    
+}
+@keyframes n1{
+    from {color: orange;}
+    to {color: purple;}
+    from{margin-left: 0px;}
+    to {margin-left: 900px;}
+}
+a{
+    color: black;
+    text-decoration: none;
+    font-family: cursive;
+    margin-left: 20px;
+
+}
+.bar{
+    
+    
+}
+ body{
+    margin: 0;
+
+}
