@@ -5,16 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Characters</title>
+    <link rel="stylesheet" href="style.css">
     <style>
         .container{
-            max-width: 1300px;
+            max-width: 1000px;
             margin: auto;
-            background: #f2f2f2;
+            /* background: #f2f2f2; */
             overflow: auto;
+            /* display: flex; */
+            
 
         }
         .go{
-            margin: 5px;
+            margin: 4%;
             border: 1px solid #ccc;
             float: left;
             width: 390px;
@@ -25,11 +28,21 @@
             size: 20px;
 
         }
+        .desc{
+    background-color: #eef;
+    height: 1.6rem;
+    border: 1px solid black;
+}
         
+@media (max-width:500px){
+    .go {
+        width: 350px;
+    } }
+
     </style>
     
 </head>
-<body style="background-color: orange;"> 
+<body style="background-color: rgb(87, 249, 222);"> 
                <nav class="nit">
     <div class="bar">
         <a href="index.html">Home</a>

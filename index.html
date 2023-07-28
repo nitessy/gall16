@@ -6,12 +6,21 @@
         <style>
             body{
                 background-image: url(image1.png);
-                background-size: cover;
+                background-size:cover;
+                overflow: hidden;
+            }
+            .nit{
+                width: 100%;
+            }
+            @media(max-width:600px){
+                body{
+                    background-size: 100vh;
+                }
             }
         </style>
     
         
-<body>
+<body >
             <nav class="nit">
                 <div class="bar">
                     <a href="index.html">Home</a>
